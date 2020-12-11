@@ -656,6 +656,10 @@ a {
     color: #575757!important;
 }
 
+label{
+    font-size: 1.2em;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -679,7 +683,7 @@ a {
 }
 
 .col-sm-4 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .col-sm-12 p {
@@ -694,15 +698,15 @@ a {
     font-size: 0.7em;
 }
 
+.texte-photo{
+    font-size: 1.2em;
+    
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
-.texte-photo{
-    font-size: 1.3em;
-    
-}
 
 .h1 {
     font-size: 20px;
