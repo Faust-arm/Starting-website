@@ -283,10 +283,6 @@ a:hover {
     padding-left: 0;
 }
 
-.text-center{
-    font-size: 1.2em;
-}
-
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -365,6 +361,8 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -656,11 +654,6 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
-    
-}
-
-.mg-md {
-    font-size: 1.4em;
 }
 
 .container {
@@ -685,13 +678,30 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+.col-sm-4 p {
+    font-size: 1.3em;
+}
+
+.col-sm-12 p {
+    font-size: 1.5em;
+}
+
+.col-xs-12 {
+    font-size: 1.5em;
+}
+
+.nom-citation{
+    font-size: 0.7em;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+
+.texte-photo{
+    font-size: 1.3em;
+    
 }
 
 .h1 {
