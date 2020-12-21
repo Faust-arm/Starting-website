@@ -4,7 +4,7 @@ body {
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+   
 }
 
 a,
@@ -33,7 +33,7 @@ a:hover {
     background: 50% 50% no-repeat;
     padding: 0 50px;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+   
     -o-background-size: cover;
     background-size: cover;
     position: relative;
@@ -67,7 +67,7 @@ a:hover {
 .bg-br-edge,
 .bg-repeat {
     -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
+   
     -o-background-size: auto!important;
     background-size: auto!important;
 }
@@ -727,12 +727,12 @@ label{
     margin: auto auto auto auto;
 }
 
-h2 {
+h2, h5 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h3, h4, h2 {
     font-size: 1.4em;
     text-transform: uppercase;
     font-weight: 700;

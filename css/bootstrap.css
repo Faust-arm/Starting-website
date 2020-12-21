@@ -8,7 +8,7 @@
 
 html {
     font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
+  
     -ms-text-size-adjust: 100%
 }
 
@@ -272,10 +272,7 @@ th {
     }
     h2,
     h3,
-    p {
-        orphans: 3;
-        widows: 3
-    }
+  
     h2,
     h3 {
         page-break-after: avoid
@@ -318,7 +315,7 @@ th {
     font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+   
 }
 
 .glyphicon-asterisk:before {
@@ -3167,9 +3164,6 @@ output {
     opacity: 1
 }
 
-.form-control:-ms-input-placeholder {
-    color: #999
-}
 
 .form-control::-webkit-input-placeholder {
     color: #999
@@ -3250,7 +3244,7 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+   
     margin-left: -20px
 }
 
@@ -3705,7 +3699,7 @@ textarea.input-lg {
 .btn[disabled],
 fieldset[disabled] .btn {
     cursor: not-allowed;
-    filter: alpha(opacity=65);
+    
     -webkit-box-shadow: none;
     box-shadow: none;
     opacity: .65
@@ -4373,7 +4367,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    
 }
 
 .open>.dropdown-menu {
@@ -6164,14 +6158,6 @@ a.thumbnail:hover {
     }
 }
 
-@-o-keyframes progress-bar-stripes {
-    from {
-        background-position: 40px 0
-    }
-    to {
-        background-position: 0 0
-    }
-}
 
 @keyframes progress-bar-stripes {
     from {
@@ -7042,7 +7028,7 @@ button.list-group-item-danger.active:hover {
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    filter: alpha(opacity=20);
+   
     opacity: .2
 }
 
@@ -7051,7 +7037,7 @@ button.list-group-item-danger.active:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-    filter: alpha(opacity=50);
+    
     opacity: .5
 }
 
@@ -7132,12 +7118,12 @@ button.close {
 }
 
 .modal-backdrop.fade {
-    filter: alpha(opacity=0);
+   
     opacity: 0
 }
 
 .modal-backdrop.in {
-    filter: alpha(opacity=50);
+    
     opacity: .5
 }
 
@@ -7227,13 +7213,13 @@ button.close {
     word-spacing: normal;
     word-wrap: normal;
     white-space: normal;
-    filter: alpha(opacity=0);
+    
     opacity: 0;
     line-break: auto
 }
 
 .tooltip.in {
-    filter: alpha(opacity=90);
+  
     opacity: .9
 }
 
@@ -7591,7 +7577,7 @@ button.close {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-    filter: alpha(opacity=50);
+   
     opacity: .5
 }
 
@@ -7600,7 +7586,7 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+   
     background-repeat: repeat-x
 }
 
@@ -7611,7 +7597,7 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    
     background-repeat: repeat-x
 }
 
@@ -7619,7 +7605,7 @@ button.close {
 .carousel-control:hover {
     color: #fff;
     text-decoration: none;
-    filter: alpha(opacity=90);
+  
     outline: 0;
     opacity: .9
 }
